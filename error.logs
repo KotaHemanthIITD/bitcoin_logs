@@ -1,0 +1,325 @@
+/snap/cmake/858/bin/cmake -S/home/test_Code -B/home/test_Code/build --check-build-system CMakeFiles/Makefile.cmake 0
+make  -f CMakeFiles/Makefile2 testTruffle
+make[1]: Entering directory '/home/test_Code/build'
+/snap/cmake/858/bin/cmake -S/home/test_Code -B/home/test_Code/build --check-build-system CMakeFiles/Makefile.cmake 0
+/snap/cmake/858/bin/cmake -E cmake_progress_start /home/test_Code/build/CMakeFiles 7
+make  -f CMakeFiles/Makefile2 stream/CMakeFiles/testTruffle.dir/all
+make[2]: Entering directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/log_severity.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/log_severity.dir/depend
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/spinlock_wait.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/spinlock_wait.dir/depend
+make  -f vendor/abseil-cpp/absl/numeric/CMakeFiles/int128.dir/build.make vendor/abseil-cpp/absl/numeric/CMakeFiles/int128.dir/depend
+make  -f vendor/CMakeFiles/libsodium.dir/build.make vendor/CMakeFiles/libsodium.dir/depend
+make  -f vendor/googletest/googletest/CMakeFiles/gtest.dir/build.make vendor/googletest/googletest/CMakeFiles/gtest.dir/depend
+make  -f vendor/libuv/CMakeFiles/uv_a.dir/build.make vendor/libuv/CMakeFiles/uv_a.dir/depend
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/exponential_biased.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/exponential_biased.dir/depend
+make  -f vendor/abseil-cpp/absl/time/CMakeFiles/time_zone.dir/build.make vendor/abseil-cpp/absl/time/CMakeFiles/time_zone.dir/depend
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor /home/test_Code/build /home/test_Code/build/vendor /home/test_Code/build/vendor/CMakeFiles/libsodium.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/base /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/base /home/test_Code/build/vendor/abseil-cpp/absl/base/CMakeFiles/spinlock_wait.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/base /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/base /home/test_Code/build/vendor/abseil-cpp/absl/base/CMakeFiles/log_severity.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/numeric /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/numeric /home/test_Code/build/vendor/abseil-cpp/absl/numeric/CMakeFiles/int128.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/base /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/base /home/test_Code/build/vendor/abseil-cpp/absl/base/CMakeFiles/exponential_biased.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/googletest/googletest /home/test_Code/build /home/test_Code/build/vendor/googletest/googletest /home/test_Code/build/vendor/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/time /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/time /home/test_Code/build/vendor/abseil-cpp/absl/time/CMakeFiles/time_zone.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/log_severity.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/log_severity.dir/build
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/spinlock_wait.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/spinlock_wait.dir/build
+make  -f vendor/abseil-cpp/absl/numeric/CMakeFiles/int128.dir/build.make vendor/abseil-cpp/absl/numeric/CMakeFiles/int128.dir/build
+make  -f vendor/CMakeFiles/libsodium.dir/build.make vendor/CMakeFiles/libsodium.dir/build
+Dependencies file "vendor/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d" is newer than depends file "/home/test_Code/build/vendor/googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.internal".
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/exponential_biased.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/exponential_biased.dir/build
+Consolidate compiler generated dependencies of target gtest
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/base/CMakeFiles/spinlock_wait.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/CMakeFiles/libsodium.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/base/CMakeFiles/log_severity.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/numeric/CMakeFiles/int128.dir/build'.
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/base/CMakeFiles/exponential_biased.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/libuv /home/test_Code/build /home/test_Code/build/vendor/libuv /home/test_Code/build/vendor/libuv/CMakeFiles/uv_a.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/test_Code/build'
+[  0%] Built target libsodium
+[  0%] Built target spinlock_wait
+make  -f vendor/googletest/googletest/CMakeFiles/gtest.dir/build.make vendor/googletest/googletest/CMakeFiles/gtest.dir/build
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/time/CMakeFiles/civil_time.dir/build.make vendor/abseil-cpp/absl/time/CMakeFiles/civil_time.dir/depend
+make  -f vendor/abseil-cpp/absl/time/CMakeFiles/time_zone.dir/build.make vendor/abseil-cpp/absl/time/CMakeFiles/time_zone.dir/build
+[  0%] Built target log_severity
+make  -f vendor/abseil-cpp/absl/hash/CMakeFiles/city.dir/build.make vendor/abseil-cpp/absl/hash/CMakeFiles/city.dir/depend
+[  0%] Built target int128
+[  0%] Built target exponential_biased
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/raw_logging_internal.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/raw_logging_internal.dir/depend
+make  -f vendor/abseil-cpp/absl/hash/CMakeFiles/wyhash.dir/build.make vendor/abseil-cpp/absl/hash/CMakeFiles/wyhash.dir/depend
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/time /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/time /home/test_Code/build/vendor/abseil-cpp/absl/time/CMakeFiles/civil_time.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/hash /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/hash /home/test_Code/build/vendor/abseil-cpp/absl/hash/CMakeFiles/city.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/base /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/base /home/test_Code/build/vendor/abseil-cpp/absl/base/CMakeFiles/raw_logging_internal.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/hash /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/hash /home/test_Code/build/vendor/abseil-cpp/absl/hash/CMakeFiles/wyhash.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/time/CMakeFiles/time_zone.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/libuv/CMakeFiles/uv_a.dir/build.make vendor/libuv/CMakeFiles/uv_a.dir/build
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/hash/CMakeFiles/wyhash.dir/build.make vendor/abseil-cpp/absl/hash/CMakeFiles/wyhash.dir/build
+make[3]: Leaving directory '/home/test_Code/build'
+[  0%] Building CXX object vendor/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+make  -f vendor/abseil-cpp/absl/time/CMakeFiles/civil_time.dir/build.make vendor/abseil-cpp/absl/time/CMakeFiles/civil_time.dir/build
+make  -f vendor/abseil-cpp/absl/hash/CMakeFiles/city.dir/build.make vendor/abseil-cpp/absl/hash/CMakeFiles/city.dir/build
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/raw_logging_internal.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/raw_logging_internal.dir/build
+cd /home/test_Code/build/vendor/googletest/googletest && /usr/bin/clang++-11  -I/home/test_Code/vendor/googletest/googletest/include -I/home/test_Code/vendor/googletest/googletest -std=c++20 -fPIC -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -pthread -std=c++20 -MD -MT vendor/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -MF CMakeFiles/gtest.dir/src/gtest-all.cc.o.d -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/test_Code/vendor/googletest/googletest/src/gtest-all.cc
+[  0%] Built target time_zone
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/hash/CMakeFiles/wyhash.dir/build'.
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/hash/CMakeFiles/city.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/time/CMakeFiles/civil_time.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/base/CMakeFiles/raw_logging_internal.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/libuv/CMakeFiles/uv_a.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+[ 14%] Built target city
+[ 14%] Built target wyhash
+[ 28%] Built target civil_time
+[ 42%] Built target raw_logging_internal
+make  -f vendor/abseil-cpp/absl/types/CMakeFiles/bad_optional_access.dir/build.make vendor/abseil-cpp/absl/types/CMakeFiles/bad_optional_access.dir/depend
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/throw_delegate.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/throw_delegate.dir/depend
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/base.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/base.dir/depend
+make  -f vendor/abseil-cpp/absl/strings/CMakeFiles/strings_internal.dir/build.make vendor/abseil-cpp/absl/strings/CMakeFiles/strings_internal.dir/depend
+make  -f vendor/abseil-cpp/absl/debugging/CMakeFiles/debugging_internal.dir/build.make vendor/abseil-cpp/absl/debugging/CMakeFiles/debugging_internal.dir/depend
+make  -f vendor/abseil-cpp/absl/types/CMakeFiles/bad_variant_access.dir/build.make vendor/abseil-cpp/absl/types/CMakeFiles/bad_variant_access.dir/depend
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/types /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/types /home/test_Code/build/vendor/abseil-cpp/absl/types/CMakeFiles/bad_optional_access.dir/DependInfo.cmake --color=
+[ 71%] Built target uv_a
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/base /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/base /home/test_Code/build/vendor/abseil-cpp/absl/base/CMakeFiles/throw_delegate.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/strings /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/strings /home/test_Code/build/vendor/abseil-cpp/absl/strings/CMakeFiles/strings_internal.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/base /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/base /home/test_Code/build/vendor/abseil-cpp/absl/base/CMakeFiles/base.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/types /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/types /home/test_Code/build/vendor/abseil-cpp/absl/types/CMakeFiles/bad_variant_access.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/debugging /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/debugging /home/test_Code/build/vendor/abseil-cpp/absl/debugging/CMakeFiles/debugging_internal.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/types/CMakeFiles/bad_optional_access.dir/build.make vendor/abseil-cpp/absl/types/CMakeFiles/bad_optional_access.dir/build
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/throw_delegate.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/throw_delegate.dir/build
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/base.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/base.dir/build
+make  -f vendor/abseil-cpp/absl/strings/CMakeFiles/strings_internal.dir/build.make vendor/abseil-cpp/absl/strings/CMakeFiles/strings_internal.dir/build
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/debugging/CMakeFiles/debugging_internal.dir/build.make vendor/abseil-cpp/absl/debugging/CMakeFiles/debugging_internal.dir/build
+make  -f vendor/abseil-cpp/absl/types/CMakeFiles/bad_variant_access.dir/build.make vendor/abseil-cpp/absl/types/CMakeFiles/bad_variant_access.dir/build
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/types/CMakeFiles/bad_optional_access.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/base/CMakeFiles/throw_delegate.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/types/CMakeFiles/bad_variant_access.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/debugging/CMakeFiles/debugging_internal.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/base/CMakeFiles/base.dir/build'.
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/strings/CMakeFiles/strings_internal.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+[ 71%] Built target bad_variant_access
+[ 71%] Built target throw_delegate
+[ 85%] Built target debugging_internal
+[ 85%] Built target base
+make  -f vendor/abseil-cpp/absl/debugging/CMakeFiles/stacktrace.dir/build.make vendor/abseil-cpp/absl/debugging/CMakeFiles/stacktrace.dir/depend
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/malloc_internal.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/malloc_internal.dir/depend
+make  -f vendor/abseil-cpp/absl/debugging/CMakeFiles/demangle_internal.dir/build.make vendor/abseil-cpp/absl/debugging/CMakeFiles/demangle_internal.dir/depend
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/debugging /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/debugging /home/test_Code/build/vendor/abseil-cpp/absl/debugging/CMakeFiles/demangle_internal.dir/DependInfo.cmake --color=
+[ 85%] Built target strings_internal
+make  -f vendor/abseil-cpp/absl/strings/CMakeFiles/strings.dir/build.make vendor/abseil-cpp/absl/strings/CMakeFiles/strings.dir/depend
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/base /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/base /home/test_Code/build/vendor/abseil-cpp/absl/base/CMakeFiles/malloc_internal.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/debugging /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/debugging /home/test_Code/build/vendor/abseil-cpp/absl/debugging/CMakeFiles/stacktrace.dir/DependInfo.cmake --color=
+[ 85%] Built target bad_optional_access
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/debugging/CMakeFiles/demangle_internal.dir/build.make vendor/abseil-cpp/absl/debugging/CMakeFiles/demangle_internal.dir/build
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/base/CMakeFiles/malloc_internal.dir/build.make vendor/abseil-cpp/absl/base/CMakeFiles/malloc_internal.dir/build
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/debugging/CMakeFiles/demangle_internal.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/strings /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/strings /home/test_Code/build/vendor/abseil-cpp/absl/strings/CMakeFiles/strings.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/debugging/CMakeFiles/stacktrace.dir/build.make vendor/abseil-cpp/absl/debugging/CMakeFiles/stacktrace.dir/build
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/base/CMakeFiles/malloc_internal.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+[ 85%] Built target demangle_internal
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/debugging/CMakeFiles/stacktrace.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+[ 85%] Built target malloc_internal
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/strings/CMakeFiles/strings.dir/build.make vendor/abseil-cpp/absl/strings/CMakeFiles/strings.dir/build
+make  -f vendor/abseil-cpp/absl/synchronization/CMakeFiles/graphcycles_internal.dir/build.make vendor/abseil-cpp/absl/synchronization/CMakeFiles/graphcycles_internal.dir/depend
+[ 85%] Built target stacktrace
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/synchronization /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/synchronization /home/test_Code/build/vendor/abseil-cpp/absl/synchronization/CMakeFiles/graphcycles_internal.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/strings/CMakeFiles/strings.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/synchronization/CMakeFiles/graphcycles_internal.dir/build.make vendor/abseil-cpp/absl/synchronization/CMakeFiles/graphcycles_internal.dir/build
+[100%] Built target strings
+make  -f vendor/abseil-cpp/absl/strings/CMakeFiles/cord.dir/build.make vendor/abseil-cpp/absl/strings/CMakeFiles/cord.dir/depend
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/synchronization/CMakeFiles/graphcycles_internal.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/debugging/CMakeFiles/symbolize.dir/build.make vendor/abseil-cpp/absl/debugging/CMakeFiles/symbolize.dir/depend
+make  -f vendor/abseil-cpp/absl/time/CMakeFiles/time.dir/build.make vendor/abseil-cpp/absl/time/CMakeFiles/time.dir/depend
+make  -f vendor/abseil-cpp/absl/hash/CMakeFiles/hash.dir/build.make vendor/abseil-cpp/absl/hash/CMakeFiles/hash.dir/depend
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/strings /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/strings /home/test_Code/build/vendor/abseil-cpp/absl/strings/CMakeFiles/cord.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/debugging /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/debugging /home/test_Code/build/vendor/abseil-cpp/absl/debugging/CMakeFiles/symbolize.dir/DependInfo.cmake --color=
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/hash /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/hash /home/test_Code/build/vendor/abseil-cpp/absl/hash/CMakeFiles/hash.dir/DependInfo.cmake --color=
+[100%] Built target graphcycles_internal
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/time /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/time /home/test_Code/build/vendor/abseil-cpp/absl/time/CMakeFiles/time.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/debugging/CMakeFiles/symbolize.dir/build.make vendor/abseil-cpp/absl/debugging/CMakeFiles/symbolize.dir/build
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/strings/CMakeFiles/cord.dir/build.make vendor/abseil-cpp/absl/strings/CMakeFiles/cord.dir/build
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/hash/CMakeFiles/hash.dir/build.make vendor/abseil-cpp/absl/hash/CMakeFiles/hash.dir/build
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/debugging/CMakeFiles/symbolize.dir/build'.
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/strings/CMakeFiles/cord.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/time/CMakeFiles/time.dir/build.make vendor/abseil-cpp/absl/time/CMakeFiles/time.dir/build
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/hash/CMakeFiles/hash.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+[100%] Built target symbolize
+[100%] Built target cord
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/time/CMakeFiles/time.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f simulator/CMakeFiles/simulator.dir/build.make simulator/CMakeFiles/simulator.dir/depend
+[100%] Built target hash
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/simulator /home/test_Code/build /home/test_Code/build/simulator /home/test_Code/build/simulator/CMakeFiles/simulator.dir/DependInfo.cmake --color=
+[100%] Built target time
+make  -f vendor/abseil-cpp/absl/synchronization/CMakeFiles/synchronization.dir/build.make vendor/abseil-cpp/absl/synchronization/CMakeFiles/synchronization.dir/depend
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f simulator/CMakeFiles/simulator.dir/build.make simulator/CMakeFiles/simulator.dir/build
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'simulator/CMakeFiles/simulator.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/synchronization /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/synchronization /home/test_Code/build/vendor/abseil-cpp/absl/synchronization/CMakeFiles/synchronization.dir/DependInfo.cmake --color=
+[100%] Built target simulator
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/synchronization/CMakeFiles/synchronization.dir/build.make vendor/abseil-cpp/absl/synchronization/CMakeFiles/synchronization.dir/build
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/synchronization/CMakeFiles/synchronization.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+[100%] Built target synchronization
+make  -f vendor/abseil-cpp/absl/container/CMakeFiles/hashtablez_sampler.dir/build.make vendor/abseil-cpp/absl/container/CMakeFiles/hashtablez_sampler.dir/depend
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/container /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/container /home/test_Code/build/vendor/abseil-cpp/absl/container/CMakeFiles/hashtablez_sampler.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/container/CMakeFiles/hashtablez_sampler.dir/build.make vendor/abseil-cpp/absl/container/CMakeFiles/hashtablez_sampler.dir/build
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/container/CMakeFiles/hashtablez_sampler.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+[100%] Built target hashtablez_sampler
+make  -f vendor/abseil-cpp/absl/container/CMakeFiles/raw_hash_set.dir/build.make vendor/abseil-cpp/absl/container/CMakeFiles/raw_hash_set.dir/depend
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/vendor/abseil-cpp/absl/container /home/test_Code/build /home/test_Code/build/vendor/abseil-cpp/absl/container /home/test_Code/build/vendor/abseil-cpp/absl/container/CMakeFiles/raw_hash_set.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f vendor/abseil-cpp/absl/container/CMakeFiles/raw_hash_set.dir/build.make vendor/abseil-cpp/absl/container/CMakeFiles/raw_hash_set.dir/build
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'vendor/abseil-cpp/absl/container/CMakeFiles/raw_hash_set.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+[100%] Built target raw_hash_set
+make  -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/depend
+make[3]: Entering directory '/home/test_Code/build'
+cd /home/test_Code/build && /snap/cmake/858/bin/cmake -E cmake_depends "Unix Makefiles" /home/test_Code /home/test_Code/core /home/test_Code/build /home/test_Code/build/core /home/test_Code/build/core/CMakeFiles/core.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/test_Code/build'
+make  -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/build
+make[3]: Entering directory '/home/test_Code/build'
+make[3]: Nothing to be done for 'core/CMakeFiles/core.dir/build'.
+make[3]: Leaving directory '/home/test_Code/build'
+[100%] Built target core
+In file included from /home/test_Code/vendor/googletest/googletest/src/gtest-all.cc:38:
+In file included from /home/test_Code/vendor/googletest/googletest/include/gtest/gtest.h:64:
+In file included from /home/test_Code/vendor/googletest/googletest/include/gtest/gtest-death-test.h:41:
+In file included from /home/test_Code/vendor/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h:39:
+In file included from /home/test_Code/vendor/googletest/googletest/include/gtest/gtest-matchers.h:47:
+/home/test_Code/vendor/googletest/googletest/include/gtest/gtest-printers.h:389:55: error: no member named 'u8string' in namespace 'std'
+GTEST_IMPL_FORMAT_C_STRING_AS_STRING_(char8_t, ::std::u8string);
+                                               ~~~~~~~^
+/home/test_Code/vendor/googletest/googletest/include/gtest/gtest-printers.h:379:40: note: expanded from macro 'GTEST_IMPL_FORMAT_C_STRING_AS_STRING_'
+  class FormatForComparison<CharType*, OtherStringType> {               \
+                                       ^~~~~~~~~~~~~~~
+/home/test_Code/vendor/googletest/googletest/include/gtest/gtest-printers.h:390:61: error: no member named 'u8string' in namespace 'std'
+GTEST_IMPL_FORMAT_C_STRING_AS_STRING_(const char8_t, ::std::u8string);
+                                                     ~~~~~~~^
+/home/test_Code/vendor/googletest/googletest/include/gtest/gtest-printers.h:379:40: note: expanded from macro 'GTEST_IMPL_FORMAT_C_STRING_AS_STRING_'
+  class FormatForComparison<CharType*, OtherStringType> {               \
+                                       ^~~~~~~~~~~~~~~
+2 errors generated.
+vendor/googletest/googletest/CMakeFiles/gtest.dir/build.make:75: recipe for target 'vendor/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o' failed
+make[3]: *** [vendor/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Error 1
+make[3]: Leaving directory '/home/test_Code/build'
+CMakeFiles/Makefile2:3931: recipe for target 'vendor/googletest/googletest/CMakeFiles/gtest.dir/all' failed
+make[2]: *** [vendor/googletest/googletest/CMakeFiles/gtest.dir/all] Error 2
+make[2]: Leaving directory '/home/test_Code/build'
+CMakeFiles/Makefile2:32624: recipe for target 'stream/CMakeFiles/testTruffle.dir/rule' failed
+make[1]: *** [stream/CMakeFiles/testTruffle.dir/rule] Error 2
+make[1]: Leaving directory '/home/test_Code/build'
+Makefile:14044: recipe for target 'testTruffle' failed
+make: *** [testTruffle] Error 2
